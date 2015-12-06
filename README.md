@@ -1,6 +1,6 @@
 #Xamarin.Android.jCIFS
 
-This is a C# binding for the The Java CIFS (jCIFS) Client Library (version 1.3.18).
+This is a C# binding for the Java CIFS (jCIFS) Client Library (version 1.3.18) for Samba networking.
 
 [JCIFS](http://jcifs.samba.org) is an Open Source client library that implements the CIFS/SMB networking protocol in 100% Java.
 
@@ -8,7 +8,7 @@ This is a C# binding for the The Java CIFS (jCIFS) Client Library (version 1.3.1
 
 ###License: 
 
-As [JCIFS](http://www.gnu.org/licenses/lgpl-2.1.txt) is Licensed Under the LGPL, so is this project's [license](http://opensource.org/licenses/LGPL-3.0).
+[JCIFS](http://www.gnu.org/licenses/lgpl-2.1.txt) is Licensed Under the LGPL 2.1 and this project is [licensed] (http://opensource.org/licenses/LGPL-3.0) under LPGL 3.0.
 
 ###API Documentation: 
 
