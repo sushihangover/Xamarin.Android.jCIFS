@@ -1,0 +1,63 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <!--  <attr path="/api/package[@name='android']/class[@name='Manifest']" name="managedName">NewManifestName</attr>-->
+  <attr path="/api/package[@name='jcifs.netbios']/class[@name='Name']" name="name">newName</attr>
+
+<!--// Metadata.xml XPath method reference: path="/api/package[@name='jcifs.smb']/class[@name='Handler']/method[@name='openConnection' and count(parameter)=1 and parameter[1][@type='java.net.URL']]"-->
+  <attr path="/api/package[@name='jcifs.smb']/class[@name='Handler']/method[@name='openConnection']" name="visibility">protected</attr>
+
+<!--// Metadata.xml XPath method reference: path="/api/package[@name='jcifs.util']/class[@name='MD4']/method[@name='engineDigest' and count(parameter)=0]"-->
+  <attr path="/api/package[@name='jcifs.util']/class[@name='MD4']/method[@name='engineDigest']" name="visibility">protected</attr>
+
+<!--// Metadata.xml XPath method reference: path="/api/package[@name='jcifs.util']/class[@name='MD4']/method[@name='engineReset' and count(parameter)=0]"-->
+  <attr path="/api/package[@name='jcifs.util']/class[@name='MD4']/method[@name='engineReset']" name="visibility">protected</attr>
+
+<!--// Metadata.xml XPath method reference: path="/api/package[@name='jcifs.util']/class[@name='MD4']/method[@name='engineUpdate' and count(parameter)=1 and parameter[1][@type='byte']]"-->
+  <attr path="/api/package[@name='jcifs.util']/class[@name='MD4']/method[@name='engineUpdate']" name="visibility">protected</attr>
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='lsarpc']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='lsarpc']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcLookupSids']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcLookupSids']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcLsarOpenPolicy2']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcLsarOpenPolicy2']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcQueryInformationPolicy']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcQueryInformationPolicy']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='samr']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='samr']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcEnumerateAliasesInDomain']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcEnumerateAliasesInDomain']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcGetMembersInAlias']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcGetMembersInAlias']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrConnect2']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrConnect2']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrConnect4']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrConnect4']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrOpenAlias']"-->
+	<remove-node  path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrOpenAlias']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrOpenDomain']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrOpenDomain']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrOpenAlias']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrOpenAlias']" />
+
+<!--// Metadata.xml XPath class reference: path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrOpenDomain']"-->
+	<remove-node path="/api/package[@name='jcifs.dcerpc.msrpc']/class[@name='MsrpcSamrOpenDomain']" />
+
+</metadata>
